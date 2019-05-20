@@ -24,5 +24,10 @@ All of the scraped data was stored in the above created database.
 
 # HTML and BootStrap: (index.html)
 Bootswatch - Slate template is used for the website https://bootswatch.com/slate/ 
-Html filr 'index.html' is created that displays all of the data in HTML elements.
+Html file 'index.html' is created that displays all of the data in HTML elements.
 
+# Screenshot 1:
+![alt text](https://github.com/Priyarag/Mars_Webscraping/blob/master/mars%20images/Screen%20Shot%202019-05-19%20at%2010.55.31%20PM.png)
+
+# Screenshot 2:
+![alt text](https://github.com/Priyarag/Mars_Webscraping/blob/master/mars%20images/Screen%20Shot%202019-05-19%20at%2010.55.49%20PM.png)
