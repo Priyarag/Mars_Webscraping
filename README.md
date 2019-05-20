@@ -7,11 +7,12 @@ https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars
 https://twitter.com/marswxreport?lang=en 
 https://space-facts.com/mars/ 
 https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars 
+
 BeautifulSoup, splinter and python pandas were used to scrape and get data .
 
 # Flask:
 Converting the Jupyter notebook into a Python script called scrape_mars.py with a function called scrape which will execute all of the scraping code from above and return one Python dictionary containing all of the scraped data.
-# '/scrape': 
+# /scrape: 
 '/scrape' route which will import the Python script and call the scrape function to scrape the mars data.
 
 
