@@ -17,9 +17,9 @@
     <div class="container">
 
       <!-- jumbotron -->
-      <div class="jumbotron text-center p-3">
+      <div class="jumbotron text-center p-3" style="background-image: url(https://github.com/Priyarag/Mars_Webscraping/blob/master/mars%20images/mission_to_mars.jpg?raw=true); background-size: 100%; height: 100%;">
           <h1 class="display-4">Mission to Mars</h1>
-        <a class="btn btn-warning" href="/scrape" role="button">Scrape Latest Mars Data</a>
+        <a class="btn btn-danger" href="/scrape" role="button">Scrape Latest Mars Data</a>
       </div><!-- /jumbotron -->
   
       <!-- 1st row -->
@@ -46,7 +46,7 @@
       <!-- 2nd row -->
           <div class="row">
         <!-- Featured Mars Image -->
-        <div class="col-md-8 mt-2" id="feat-img">
+        <div class="col-md-7 mt-4" id="feat-img">
           <h2>Featured Mars Image</h2>
           <a href= {{ mars.featured_image_url }}>
           <img style="width: 100%; display: block;" src="{{ mars.featured_image_url }}" class="img-fluid p-2" alt="Featured Mars Image"> </a>
@@ -86,11 +86,11 @@
       <div class="row justify-content-center">
       
         <!-- Mars Hemispheres -->
-        <div class="col-md-12" id="mars-hemispheres">
+        <div class="col-md-10" id="mars-hemispheres">
           <h2 class="text-center mt-4">Mars Hemispheres</h2>
         </div>
           {% for hemisphere in mars.hemisphere_img_urls %}
-            <div class="col-md-4 card border secondary m-3">
+            <div class="col-md-5 card border secondary m-3">
               <img class="card-img-top" src="{{hemisphere.image_url}}" alt="{{ hemisphere.image_title }}">
               <div class="card-body">
                 <h4 class="card-title text-center">{{ hemisphere.image_title }}</h4> 
